@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.start{
+    color: red;
+    
+    font-size: 18px;
+}
+
+.list{
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all .4s ease-in;
+}
+
+.list:hover{
+    color: red;
+}
+
+.banner-img{
+    background-image: url("Images/banner-bg.png");
+    background-size: cover;
+    height: 510px;
+    width: 100%;
+}
+
+.banner-content{
+    margin-top: 100px;
+}
+
+.banner-heading{
+    font-weight: bold;
+
+}
+.banner-para{
+    max-width: 45%;
+    color: white;
+}
+
+.main-btn{
+    background-color: #252525;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 10px 40px;
+    transition: all .4s linear;
+}
+
+.main-btn:hover{
+    background-color: #f76d37;
+}
+
+.about-content{
+    line-height: 2;
+}
+
+.section{
+    padding: 90px 0px;
+}
+
+.services-img{
+    background-image: url("Images/services-bg.png");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.services-card{
+    background-color: #f76d37;
+    padding: 25px;
+    height: 300px;
+}
+
+.contact-form{
+    background-image: url(Images/img-9.png);
+    height: 580px;
+}
+
+.field{
+    padding: 12px 10px; 
+    width: 90%;
+    outline: 0;
+    border: 0;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.form-btn{
+    padding: 15px 70px;
+    border: 0;
+    outline: 0;
+    background-color: #d33a11;;
+    color: white;
+    border-radius: 90px;
+    font-size: 20px;
+    transition: all .3s ease-in;
+}
+
+.form-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.footer-content p{
+    font-size: 14px;
+}
+
+.footer-content li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.f-links{
+    text-decoration: none;
+    color: white;
+    transition: all .4s ease-in;
+}
+
+.f-links:hover{
+    color: #d33a11;
+}
+
+
+.f-text{
+    cursor: pointer;
+    color: white;
+    transition: all .4s ease-in;
+}
+
+.f-text:hover{
+    color: #d33a11;
+}
